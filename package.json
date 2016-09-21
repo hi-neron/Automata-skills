@@ -1,0 +1,37 @@
+{
+  "name": "automata-skills",
+  "version": "1.0.0",
+  "description": "skills maneja el catalogo de skills, interacciones con el juego",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint && ava test/**-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hi-neron/automata-skills.git"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "keywords": [
+    "skills",
+    "automata"
+  ],
+  "author": "Neron <mutatipo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hi-neron/automata-skill/issues"
+  },
+  "homepage": "https://github.com/hi-neron/automata-skills#readme",
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "babel-eslint": "^6.1.2",
+    "standard": "^8.0.0",
+    "uuid-base62": "^0.1.0"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "lodash": "^4.15.0"
+  }
+}

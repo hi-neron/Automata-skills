@@ -2,6 +2,17 @@
 
 let Promise = require('bluebird')
 
+/*
+     /\
+    ( /   @ @    ()
+     \\ __| |__  /
+      \/   "   \/
+     /-|       |-\
+    / /-\     /-\ \
+     / /-`---'-\ \
+      /         \
+*/
+
 let crabSkill = {
   exec: function (images, cb) {
     let newImages = [
